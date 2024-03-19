@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(cayo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #5a5a5a;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding shadow */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.count {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+}
+
+#box1 {
+    background-color: #ccfc1f; /* Blue */
+}
+
+#box2 {
+    background-color: #3dff36; /* Green */
+}
+
+#box3 {
+    background-color: #367cff; /* Yellow */
+}
